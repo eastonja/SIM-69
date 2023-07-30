@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cbad026a-9b47-423f-8e87-435c55477cc2)
+
+  (paper "B")
+
+  (title_block
+    (title "SIM-69")
+    (rev "1.0")
+    (company "Jeff Easton")
+    (comment 1 "Super Integrated Motherboard - 6809")
+  )
+
+  (lib_symbols
+  )
+
+)

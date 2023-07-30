@@ -1,0 +1,73 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a9932aa8-8920-4048-9764-b91b6b73cc84)
+
+  (paper "B")
+
+  (title_block
+    (title "SIM-69")
+    (date "2023-07-05")
+    (rev "1.0")
+    (company "Jeff Easton")
+    (comment 1 "Super Integrated Motherboard - 6809")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 49.53 97.79) (size 34.29 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 05c9103b-abbe-4d4f-8fcb-964945f26427)
+    (property "Sheetname" "IO" (at 49.53 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IO.kicad_sch" (at 49.53 130.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SIM-69"
+        (path "/a9932aa8-8920-4048-9764-b91b6b73cc84" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 49.53 149.86) (size 34.29 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f7145fd9-c3db-41e4-bfc3-16143117fc46)
+    (property "Sheetname" "Power Mech" (at 49.53 149.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PowerMech.kicad_sch" (at 49.53 179.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SIM-69"
+        (path "/a9932aa8-8920-4048-9764-b91b6b73cc84" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 48.26 46.99) (size 35.56 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fc68bcc0-842b-4fed-9109-9ac02cf8bc8e)
+    (property "Sheetname" "CPU Memory" (at 48.26 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CPUMEM.kicad_sch" (at 48.26 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SIM-69"
+        (path "/a9932aa8-8920-4048-9764-b91b6b73cc84" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
