@@ -5,14 +5,14 @@ $FFFF ------------
 $F000 ------------
 	 ROM	   4K
 $E000 ------------
-	 ROM	   4K
-$D000 ------------	     |  $AFFF ------------
-	 EEPROM	   4K	     |  	 I/O	   256 Bytes
-$C000 ------------	     |  $AF00 ------------
-	 EEPROM	   4K	     |  	 UNUSED	
-$B000 ------------	     |	$A800 ------------
-	 mixed	   4k   <----|		  RAM 	    2K
-$A000 ------------	     |	$A000 ------------
+	 ROM	   4K						    |  $AF90  LCD
+$D000 ------------	     |  $AFFF ------------		    |  $AF80  I2c
+	 EEPROM	   4K	     |  	 I/O	   256 Bytes   <----|
+$C000 ------------	     |  $AF00 ------------		    |
+	 EEPROM	   4K	     |  	 UNUSED			    |  $AF30  VIA2
+$B000 ------------	     |	$A800 ------------		    |  $AF20  VIA1
+	 mixed	   4k   <----|		  RAM 	    2K		    |  $AF10  ACIA2
+$A000 ------------	     |	$A000 ------------		    |  $AF00  ACIA1
 	 RAM	   4k
 $9000 ------------
 	 RAM	   4k	Note: RAM at $8000 to $A7FF only with 64K GAL and 64Kx8 RAM chip.
