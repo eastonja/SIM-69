@@ -1,0 +1,61 @@
+Name     SIM-69 32k ;
+PartNo   00 ;
+Date     08.01.2023 ;
+Revision 1.0 ;
+Designer Jeff Easton ;
+Company  Private ;
+Assembly None ;
+Location U6 ;
+Device   g22v10;
+
+
+/*
+* Address Decoder for SIM-69 6809 SBC
+*/
+
+/* *************** INPUT PINS *********************/
+PIN 1	= A15 ;
+PIN 2 	= A14 ;
+PIN 3	= A13 ;
+PIN 4	= A12 ;
+PIN 5	= A11 ;
+PIN 6	= A10 ;
+PIN 7	= A9 ;
+PIN 8	= A8 ;
+PIN 9	= A7 ;
+PIN 10	= A6 ;
+PIN 11	= A5 ;
+PIN 13 = A4 ;
+PIN 14 = RW_IN ;
+PIN 15 = E ;
+
+
+/* *************** OUTPUT PINS *********************/
+PIN 16	= RW_OUT ;	/* Invert of RW_IN */
+PIN 17	= IIC ;		/* I2C Chip Select */
+PIN 18	= 65IO ;	/* all 65xx Chip Selects (to 74LS138) */
+PIN 19	= RWE	;	/* RW gated with E for PCF8584*/
+PIN 20	= EEPM	;	/* EEPROM Chip Select */
+PIN 21  = ROM ;		/* System ROM Chip Select */
+PIN 22	= RAM ;		/* RAM Chip Select */
+PIN 23  = LCD ;		/* LCD Chip Select */
+
+
+/* *****************Declarations************** */
+
+/* **************EQUATIONS************ */
+
+!RW_OUT		=	 RW_IN ;			/* Invert RW for EEPROM use*/
+!RWE		=	!RW_IN & E ;			/* RW gated with E for PCF8584 !WR input */
+!RAM		=	 !A15 & E  ;			/* RAM is $0000 to $7FFF, lower 32k */
+
+!ROM		=	  A15 &  A14 &  A13 & E  
+			# A15 &  A14 & !A13  & A12 & E ;				/* ROM is $D000 to $FFFF, upper 12K  */ 
+!EEPM		=	  A15 &  A14 & !A13 & !A12 & E 
+			# A15 & !A14 &  A13 &  A12 & E ;				/* EEPROM is $B000 to $CFFF 8K  */
+!65IO		=	 A15 & !A14 &  A13 & !A12 &  A11 &  A10 &  A9 &  A8 & !A7 ;	/* ACIA1 is $AF00 to $AF0F, ACIA2 AF10 to AF1F, VIA1 AF20 to AF2F, VIA2 AF30 to AF3F */
+!IIC		=	 A15 & !A14 &  A13 & !A12 &  A11 &  A10 &  A9 &  A8 &  A7 & !A6 & !A5 & !A4 ;		/* I2C  is $AF80 to $AF8F */
+LCD		=	 A15 & !A14 &  A13 & !A12 &  A11 &  A10 &  A9 &  A8 &  A7 & !A6 & !A5 &  A4 & E ;	/* LCD  is $AF90 to $AF9F Output HI gated with E */
+
+
+
