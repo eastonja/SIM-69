@@ -1,0 +1,30 @@
+SIM-69 Memory Map
+
+$FFFF ------------
+      	 ROM	   4K
+$F000 ------------
+	 ROM	   4K
+$E000 ------------
+	 ROM	   4K
+$D000 ------------	     |  $AFFF ------------
+	 EEPROM	   4K	     |  	 I/O	   256 Bytes
+$C000 ------------	     |  $AF00 ------------
+	 EEPROM	   4K	     |  	 UNUSED	
+$B000 ------------	     |	$A800 ------------
+	 mixed	   4k   <----|		  RAM 	    2K
+$A000 ------------	     |	$A000 ------------
+	 RAM	   4k
+$9000 ------------
+	 RAM	   4k	Note: RAM at $8000 to $A7FF only with 64K GAL and 64Kx8 RAM chip.
+$8000 ------------	        32K GAL will decode $0000-$7FFF only for 32Kx8 RAM chip.
+
+
+
+
+
+	RAM	   32k
+
+
+
+
+$0000 ------------
