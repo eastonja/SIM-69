@@ -3,4 +3,4 @@ Bugs in SIM-69 v1.0
 
 [Documentation]  Schematic U6 Pin 23 is marked as /LCD.  This is not active Low but active Hi for the LCD enable.
 [Mechanical]  	 Mounting Hole H5 which supports one end of the LCD2004a module via a standoff, is incorrectly shifted .100" to 
-			the left.  Needs to be moved .100" to the right to properly line up with (most) LCD2004a modules mounting hole.
+			the right.  Needs to be moved .100" to the left to properly line up with (most) LCD2004a modules mounting hole.
