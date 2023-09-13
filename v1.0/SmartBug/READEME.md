@@ -1,15 +1,15 @@
-SmartBug Monitor Program for SIM-69.  Burn in rom at $E000 to $FFFF
-At reset, at the '->' prompt, type '??' for a help menu of commands.
+SmartBug Monitor Program for SIM-69.  Burn in rom at $E000 to $FFFF  
+At reset, at the '->' prompt, type '??' for a help menu of commands.  
 
-
-        SMARTBUG /09 v1.27a-S69
-          WRITTEN 09/12/23
-           BY JEFF EASTON
-
-->??
-
- CURRENT COMMANDS:
- 
+  
+        SMARTBUG /09 v1.27a-S69  
+          WRITTEN 09/12/23  
+           BY JEFF EASTON  
+  
+->??  
+  
+ CURRENT COMMANDS:  
+   
 AI  ASCII INPUT  
 AO  ASCII OUTPUT  
 AU  AUTO MEMORY INPUT  
