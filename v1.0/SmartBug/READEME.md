@@ -9,7 +9,7 @@ At reset, at the '->' prompt, type '??' for a help menu of commands.
 ->??
 
  CURRENT COMMANDS:
-
+ 
 AI  ASCII INPUT
 AO  ASCII OUTPUT
 AU  AUTO MEMORY INPUT
