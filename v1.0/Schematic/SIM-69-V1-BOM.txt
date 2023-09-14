@@ -1,0 +1,74 @@
+Reference	Value	Footprint	Datasheet	Sim.Device	Sim.Pins	Qty														
+C1	470uF	Capacitor_THT:CP_Radial_D5.0mm_P2.50mm	~			1		EEU-FM1A471B Panasonic Electronic Components | Capacitors | DigiKey												
+"C2, C20"	10uF	Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm	~			2		TAP106K016SRW KYOCERA AVX | Capacitors | DigiKey												
+"C3-C9, C11, C21-C27, C29, C30"	.1uF	Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm	~			17		SR211C104KARTR1 KYOCERA AVX | Capacitors | DigiKey												
+"C10, C28"	.1uF	Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm	~			2		SR211C104KARTR1 KYOCERA AVX | Capacitors | DigiKey												
+C12-C19	1uF	Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm	~			8		SR211C105KAR KYOCERA AVX | Capacitors | DigiKey												
+D1	1N4002	Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal	http://www.vishay.com/docs/88503/1n4001.pdf	D	1=K 2=A	1		1N4002 Diode | Jameco Electronics												
+D2	LED	LED_THT:LED_D3.0mm	~			1		SSL-LX5093GD-12V Lumex Opto/Components Inc. | Optoelectronics | DigiKey												
+H1-H8	MountingHole_Pad	MountingHole:MountingHole_3.7mm_Pad_TopBottom	~			8														
+J1	+5V Center Positive	Connector_BarrelJack:BarrelJack_Horizontal	~			1		"PJ-202AH CUI Devices | Connectors, Interconnects | DigiKey"												
+J2	Bank0/1	Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical	~		1x2 pin header strip	1		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J3	Front Panel Power LED	Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical	~		1x2 pin header strip	1		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J4	LCD Interface	Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical	~		1x16 socket header strip	1		Vertical Header Receptacle TDH16SG-VP-R | Jameco Valuepro												
+J5	I2C CLK	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	~		1x3 pin header strip	1		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J6	Ser ADDR	Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical	~		2x3 pin header strip	1		"67997-240HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J7	I2C GND	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	~		1x6 pin header strip	1		"colored .100"" pin strip Amazon"												
+J8	I2C Vcc	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	~		1x6 pin header strip	1		"colored .100"" pin strip Amazon"												
+J9	I2C SDA	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	~		1x6 pin header strip	1		"colored .100"" pin strip Amazon"												
+J10	I2C SCL	Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical	~		1x6 pin header strip	1		"colored .100"" pin strip Amazon"												
+J11	RTC Conn	Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical	~		1x5 socket header strip	1		"RS1-05-G Adam Tech | Connectors, Interconnects | DigiKey"												
+"J12, J13"	6522 IRQ	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	~		1x3 pin header strip	2		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+"J14, J16"	PortA	Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical	~		2x7 pin header strip	2		"67997-240HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+"J15, J17"	PortB	Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical	~		2x7 pin header strip	2		"67997-240HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J18	Conn_Ser1	Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical	~		1x6 socket header strip	1		"RS1-06-G Adam Tech | Connectors, Interconnects | DigiKey"												
+J19	Conn_Ser2	Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical	~		1x6 socket header strip	1		"RS1-06-G Adam Tech | Connectors, Interconnects | DigiKey"												
+"J20, J21"	DE9_P	Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm	 ~		DB9 Male rt angle	2		"DLS1XP5AK40X Conec | Connectors, Interconnects | DigiKey"												
+J22	~{EEWE}	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	~		1x3 pin header strip	1		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J23	EE13	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	~		1x3 pin header strip	1		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J24	EE14	Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical	~		1x3 pin header strip	1		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J25	Front Panel Reset	Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical	~		1x2 pin header strip	1		"68000-220HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+J55	HM62256	Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical	~		machined strip	1		SMC-1-30-1-GT Adam Technologies | Jameco												
+JP1	EXP BUS	Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical	~		2x20 pin header strip	1		"67997-240HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+JP2	Power	Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical	~		2x4 pin header strip	1		"67997-240HLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+R1	2.7K	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	~			1		Carbon Film Resistor 1/4 Watt 2.7k Ohm | Jameco Valuepro												
+"R2, R12"	470	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	~			2		Carbon Film Resistor 1/4 Watt 470 Ohm | Jameco Valuepro												
+R3	10	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	~			1		Carbon Film Resistor 1/4 Watt 10 Ohm | Jameco Valuepro												
+R4-R11	240	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	~			8		Carbon Film Resistor 1/4 Watt 240 Ohm | Jameco Valuepro												
+RN1-RN3	4.7K	Resistor_THT:R_Array_SIP6	http://www.vishay.com/docs/31509/csc.pdf			3		4606X-101-472LF Bourns Inc. | Resistors | DigiKey												
+RV1	10K_Potentiometer	Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical	~			1		"T73YP103KT20 Vishay Sfernice | Potentiometers, Variable Resistors | DigiKey"												
+SW1	SW_Push	Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS	~			1		PTS645VK58-2 LFS C&K | Switches | DigiKey							alternate: PTS645VM31-2 LFS C&K | Switches | DigiKey					alternate: PTS645VK312LFS C&K | Switches | DigiKey
+U1	DS1813-5	Package_TO_SOT_THT:TO-92				1		DS1813-5+ Analog Devices Inc./Maxim Integrated | Integrated Circuits (ICs) | DigiKey								alternate: Microschip MCP130			alternate:10uf Tantlum cap	
+U2	MC6809	Package_DIP:DIP-40_W15.24mm_Socket	http://pdf.datasheetcatalog.com/datasheet/motorola/MC68B09S.pdf			1		MC6809B or HD63B09P | Ebay												
+U2		40Pin DIP socket						"DILB40P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+U3	27C256	Package_DIP:DIP-28_W15.24mm_Socket	http://ww1.microchip.com/downloads/en/DeviceDoc/doc0014.pdf			1		WinBond W27C257-10 | Ebay												
+U3		28Pin DIP Socket						"DILB28P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+U4	28C256	Package_DIP:DIP-28_W15.24mm_Socket	http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf			1		Atmel AT28C64B-15 (8Kx8) or AT28C256 (32Kx8) | Ebay												
+U4		28Pin DIP Socket						"DILB28P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+U5	W24512AK	Package_DIP:DIP-32_W7.62mm	https://pdf1.alldatasheet.com/datasheet-pdf/view/47639/WINBOND/W24512AK-15.html			1		W24512AK-15 (64Kx8) or UM61512AK-15 (64Kx8) or HM62256 (32Kx8) | Ebay												
+U5		32Pin DIP socket narrow 						two 16pin sockets stacked end to end.	IC Socket 16MTLP | Jameco Valuepro or use machined strip header sockets											
+U6	GAL22V10	Package_DIP:DIP-24_W7.62mm_Socket	~			1		GAL22V10D-10LP | Ebay												
+U6		24Pin DIP socket narrow						16pin and 8 pin narrow socket stacked end to end												
+U7	PCF8584	Package_DIP:DIP-20_W7.62mm	http://www.nxp.com/documents/data_sheet/PCF8584.pdf			1		PCF8584P | Ebay												
+U7		20Pin dip socket narrow						"DILB20P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+U8	24LC256	Package_DIP:DIP-8_W7.62mm_Socket	http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf			1		24LC256-I-P EEPROM Memory Microchip Technology | Jameco												
+U8		8 pin DIP socket						IC Socket 24LPD.3 | Jameco Electronics												
+U9	74LS138	Package_DIP:DIP-16_W7.62mm_Socket	http://www.ti.com/lit/gpn/sn74LS138			1		CD74HCT138E Texas Instruments | Integrated Circuits (ICs) | DigiKey Marketplace												
+U9		16{in DIP socket						"DILB16P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+"U10, U11"	65C22	Package_DIP:DIP-40_W15.24mm_Socket	http://www.6502.org/documents/datasheets/mos/mos_6522_preliminary_nov_1977.pdf			2		R65C22P2 | Ebay												
+"U10, U11"		40Pin DIP socket						"DILB40P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+"U12, U13"	65C51	Package_DIP:DIP-28_W15.24mm_Socket	http://www.6502.org/documents/datasheets/mos/mos_6551_acia.pdf			2		R65C51P2 | Ebay												
+"U12, U13"		28Pin DIP socket						"DILB28P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+"U14, U15"	MAX232	Package_DIP:DIP-16_W7.62mm_Socket	http://www.ti.com/lit/ds/symlink/max232.pdf			2		MAX232EIN Texas Instruments | Integrated Circuits (ICs) | DigiKey Marketplace												
+"U14, U15"		16Pin DIP Socket						"DILB16P-223TLF Amphenol ICC (FCI) | Connectors, Interconnects | DigiKey"												
+X1	8.00MHz	Oscillator:Oscillator_DIP-8	http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf			1		"ECS-2200BX-080 ECS Inc. | Crystals, Oscillators, Resonators | DigiKey"												
+X2	1.8432 Mhz	Oscillator:Oscillator_DIP-8	http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf			1		"ECS-2100A-018 ECS Inc. | Crystals, Oscillators, Resonators | DigiKey"												
+		4/8Pin DIP socket machined				2		1108800 Aries Electronics IC Socket | Jameco Electronics												
+																				
+	330	1/4 watt resistor (alternate for front panel power led) R12						alternate for front panel power led resistor R12 (depending on current draw of case power LED												
+																				
+		"vt100 brd  cable Molex 2695 terminal 2759, 6459, 41572"						"0008650804 Molex | Connectors, Interconnects | DigiKey"						for TTL serial cables						
+		vt100 data cable Molex 2695 4 pos housing						"0022013047 Molex | Connectors, Interconnects | DigiKey"						for serial TTL cables						
+		vt100 pwr cable Molex 2695 2 pos housing																		
+																				
+		Wall wart power supply						Jameco 252720  AC to DC Power Supply Wall Adapter Single Output 5 Volt 1 Amp 5 Watt36												
