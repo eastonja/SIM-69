@@ -1,0 +1,26 @@
+				
+Component Count:	74						
+Ref	Qnty	Value	Cmp name	Footprint	Description	Vendor	DNP
+BZ1	1	Buzzer	Buzzer	Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm	"Buzzer, polarized"		
+"C1, C2, C3"	3	.1uF	C	Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm	Unpolarized capacitor		
+D1 through D23	23	1N4148	D_Small	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal	"Diode, small symbol"		
+D24	1	1N4001	1N4002_1	Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal	"100V 1A General Purpose Rectifier Diode, DO-41"		
+"D31, D32, D33, D34"	4	LED	LED	LED_THT:LED_D3.0mm	Light emitting diode		
+"H1, H2, H3, H4"	4	MountingHole_Pad	MountingHole_Pad	MountingHole:MountingHole_3.7mm_Pad_TopBottom	Mounting Hole with connection		
+J1	1	PortA	Conn_02x07_Odd_Even	Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical	"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"		
+J2	1	PortB	Conn_02x07_Odd_Even	Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical	"Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"		
+JP1	1	Power	Conn_02x04_Odd_Even	Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical	"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"		
+MX1 through MX23	23	MX_SW	MX_SW_solder	PCM_marbastlib-mx:SW_MX_1u	"Push button switch, normally open, two pins, 45° tilted. Cherry MX Brown"		
+Q1	1	2N3904	2N3904	Package_TO_SOT_THT:TO-92_Inline	"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"		
+"R1, R2, R3, R4"	4	470	R_Small_US	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	"Resistor, small US symbol"		1/4W 5% carbon film
+"R5, R6"	2	1K	R_Small_US	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	"Resistor, small US symbol"		1/4W 5% carbon film
+R7	1	180	R_Small_US	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	"Resistor, small US symbol"		1/4W 5% carbon film
+RN1	1	4.7K	R_Network05	"Resistor_THT:R_Array_SIP6 (Optional, depending on 6522 VIA mfr)"	"5 resistor network, star topology, bussed resistors, small symbol"		
+S1	1	MX_stab	MX_stab	"PCM_marbastlib-mx:STAB_MX_P_2u, DUROCK Stabilizer V3 PCB Mount"	Cherry MX-style stabilizer	Amazon	
+U1	1	74LS138	74LS138	Package_DIP:DIP-16_W7.62mm_Socket (Optional/ Spare)	Decoder 3 to 8 active low outputs		
+U2	1	74LS04	74LS04	Package_DIP:DIP-14_W7.62mm_Socket	Hex Inverter		
+							
+			PCB	Sim-69 Keypad base PCB		JLCPCB	https://jlcpcb.com/
+			Plate	"Nyquist Plate, Black FR4 (optional)"		Keebio	https://keeb.io/products/nyquist-case-plates
+			2x7 ribbon cable/conn	"2x7 IDC dual row female connectors, 14 con. Ribbon cable"		Jameco/Amazon	
+			KeyCaps	"DSA Flex Keycaps, Hexidecimal set and Numpad Modifier set in Biege"		Signature Plastics	https://spkeyboards.com/products/dsa-flex-sublimated-keycaps?_pos=1&_sid=77e0b7352&_ss=r&variant=49470665589014
